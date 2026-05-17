@@ -1,0 +1,82 @@
+services:
+  mqtt-broker:
+    image: eclipse-mosquitto:2.0
+    container_name: mqtt-broker
+    volumes:
+      - ./configs/mosquitto.conf:/mosquitto/config/mosquitto.conf:ro
+      - ./configs/passwd:/mosquitto/config/passwd:ro
+      - ./configs/acl:/mosquitto/config/acl:ro
+      - ./logs/mosquitto:/mosquitto/log
+    user: "root"
+    networks:
+      - iot-internal
+
+  iot-sensor-1:
+    image: python:3.11-slim
+    container_name: iot-sensor-1
+    depends_on:
+      - mqtt-broker
+    volumes:
+      - ./scripts:/scripts
+    command: sh -c "pip install paho-mqtt && python -u /scripts/sensor.py temp-1 temperature TempPass123"
+    networks:
+      - iot-internal
+
+  iot-sensor-2:
+    image: python:3.11-slim
+    container_name: iot-sensor-2
+    depends_on:
+      - mqtt-broker
+    volumes:
+      - ./scripts:/scripts
+    command: sh -c "pip install paho-mqtt && python -u /scripts/sensor.py motion-1 motion MotionPass123"
+    networks:
+      - iot-internal
+
+  firewall:
+    build: ./firewall
+    container_name: firewall
+    cap_add:
+      - NET_ADMIN
+    networks:
+      - iot-internal
+      - iot-external
+
+  suricata:
+    build: ./suricata
+    container_name: suricata
+    cap_add:
+      - NET_ADMIN
+      - SYS_NICE
+      - NET_RAW
+    network_mode: "service:firewall"
+    depends_on:
+      - firewall
+    volumes:
+      - ./logs/suricata:/var/log/suricata   
+  fail2ban:
+    build: ./fail2ban
+    container_name: fail2ban
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    network_mode: "service:firewall"
+    depends_on:
+      - suricata
+    volumes:
+      - ./logs/suricata:/var/log/suricata:ro
+  attacker:
+    image: kalilinux/kali-rolling
+    container_name: attacker
+    networks:
+      - iot-external
+    command: sleep infinity
+    tty: true
+
+networks:
+  iot-internal:
+    driver: bridge
+  iot-external:
+    driver: bridge
+
+   

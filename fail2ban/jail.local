@@ -1,0 +1,26 @@
+[DEFAULT]
+bantime = 600
+findtime = 60
+maxretry = 2
+banaction = iptables-allports
+
+[sshd]
+enabled = false
+
+[sshd-ddos]
+enabled = false
+
+[alpine-sshd]
+enabled = false
+
+[alpine-sshd-ddos]
+enabled = false
+
+[suricata]
+enabled = true
+filter = suricata
+logpath = /var/log/suricata/fast.log
+maxretry = 1
+findtime = 60
+bantime = 600
+action = iptables-allports[name=suricata]

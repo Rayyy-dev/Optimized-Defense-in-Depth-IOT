@@ -1,0 +1,4 @@
+alert tcp any any -> any 1883 (msg:"MQTT Connection Attempt"; sid:1000001; rev:1;)
+alert tcp any any -> any any (msg:"NMAP TCP Scan Detected"; flags:S; threshold:type both, track by_src, count 10, seconds 5; sid:1000002; rev:1;)
+alert tcp any any -> any 1883 (msg:"MQTT Subscribe Attempt"; content:"|82|"; offset:0; depth:1; sid:1000003; rev:1;)
+alert tcp any any -> any 1883 (msg:"MQTT Wildcard Subscribe (Possible Sniffing)"; content:"|82|"; offset:0; depth:1; content:"#"; sid:1000004; rev:1;)

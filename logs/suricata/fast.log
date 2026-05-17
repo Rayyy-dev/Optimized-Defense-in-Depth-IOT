@@ -1,0 +1,13 @@
+05/14/2026-00:22:34.832234  [**] [1:1000001:1] MQTT Connection Attempt [**] [Classification: (null)] [Priority: 3] {TCP} 172.21.0.2:48210 -> 172.21.0.3:1883
+05/14/2026-00:22:34.839708  [**] [1:1000003:1] MQTT Subscribe Attempt [**] [Classification: (null)] [Priority: 3] {TCP} 172.21.0.2:48210 -> 172.21.0.3:1883
+05/14/2026-00:22:34.839708  [**] [1:1000004:1] MQTT Wildcard Subscribe (Possible Sniffing) [**] [Classification: (null)] [Priority: 3] {TCP} 172.21.0.2:48210 -> 172.21.0.3:1883
+05/14/2026-00:22:34.881814  [**] [1:1000003:1] MQTT Subscribe Attempt [**] [Classification: (null)] [Priority: 3] {TCP} 172.21.0.2:48210 -> 172.21.0.3:1883
+05/14/2026-00:22:34.881814  [**] [1:1000004:1] MQTT Wildcard Subscribe (Possible Sniffing) [**] [Classification: (null)] [Priority: 3] {TCP} 172.21.0.2:48210 -> 172.21.0.3:1883
+05/14/2026-00:38:12.315975  [**] [1:1000001:1] MQTT Connection Attempt [**] [Classification: (null)] [Priority: 3] {TCP} 172.20.0.3:57574 -> 172.20.0.2:1883
+05/14/2026-00:38:12.322527  [**] [1:1000003:1] MQTT Subscribe Attempt [**] [Classification: (null)] [Priority: 3] {TCP} 172.20.0.3:57574 -> 172.20.0.2:1883
+05/14/2026-00:38:12.322527  [**] [1:1000004:1] MQTT Wildcard Subscribe (Possible Sniffing) [**] [Classification: (null)] [Priority: 3] {TCP} 172.20.0.3:57574 -> 172.20.0.2:1883
+05/14/2026-00:38:12.367363  [**] [1:1000003:1] MQTT Subscribe Attempt [**] [Classification: (null)] [Priority: 3] {TCP} 172.20.0.3:57574 -> 172.20.0.2:1883
+05/14/2026-00:38:12.367363  [**] [1:1000004:1] MQTT Wildcard Subscribe (Possible Sniffing) [**] [Classification: (null)] [Priority: 3] {TCP} 172.20.0.3:57574 -> 172.20.0.2:1883
+05/14/2026-00:38:28.899810  [**] [1:1000001:1] MQTT Connection Attempt [**] [Classification: (null)] [Priority: 3] {TCP} 172.20.0.3:63558 -> 172.20.0.2:1883
+05/14/2026-00:38:57.624560  [**] [1:1000001:1] MQTT Connection Attempt [**] [Classification: (null)] [Priority: 3] {TCP} 172.20.0.3:51184 -> 172.20.0.2:1883
+05/14/2026-00:40:01.115621  [**] [1:1000001:1] MQTT Connection Attempt [**] [Classification: (null)] [Priority: 3] {TCP} 172.20.0.3:57574 -> 172.20.0.2:1883

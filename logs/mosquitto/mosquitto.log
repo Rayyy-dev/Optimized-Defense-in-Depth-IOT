@@ -1,0 +1,408 @@
+1778711730: mosquitto version 2.0.22 starting
+1778711730: Config loaded from /mosquitto/config/mosquitto.conf.
+1778711730: Opening ipv4 listen socket on port 1883.
+1778711730: Opening ipv6 listen socket on port 1883.
+1778711730: mosquitto version 2.0.22 running
+1778711736: New connection from 172.18.0.3:38825 on port 1883.
+1778711736: New client connected from 172.18.0.3:38825 as motion-1 (p2, c1, k60).
+1778711736: No will message specified.
+1778711736: Sending CONNACK to motion-1 (0, 0)
+1778711736: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711736: New connection from 172.18.0.4:40287 on port 1883.
+1778711736: New client connected from 172.18.0.4:40287 as temp-1 (p2, c1, k60).
+1778711736: No will message specified.
+1778711736: Sending CONNACK to temp-1 (0, 0)
+1778711736: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711741: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711741: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711746: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711746: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711751: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711751: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711754: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711754: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711759: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711759: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711764: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711764: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711769: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711769: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (36 bytes))
+1778711774: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711774: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711779: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711779: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711782: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711782: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711787: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711787: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711792: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711792: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711797: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711797: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711802: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711802: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711807: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711807: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711810: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711810: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711815: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711815: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711820: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711820: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711825: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711825: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711830: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711830: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711835: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711835: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711838: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711838: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711843: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711843: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711848: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711848: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711853: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711853: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711858: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711858: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711863: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711863: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711866: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711866: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (36 bytes))
+1778711871: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711871: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711876: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711877: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711881: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711882: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711886: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711887: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711891: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711892: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (36 bytes))
+1778711894: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711895: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (36 bytes))
+1778711899: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711900: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711904: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711905: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711905: New connection from 172.18.0.5:43075 on port 1883.
+1778711905: Client temp-1 already connected, closing old connection.
+1778711905: New client connected from 172.18.0.5:43075 as temp-1 (p2, c1, k60).
+1778711905: No will message specified.
+1778711905: Sending CONNACK to temp-1 (0, 0)
+1778711905: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711909: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711910: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711914: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711915: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711919: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711918: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711922: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711923: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711927: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711928: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711932: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711933: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711937: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711938: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711942: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711943: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711947: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711946: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711950: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711951: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (36 bytes))
+1778711953: Client temp-1 closed its connection.
+1778711955: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711959: Client motion-1 closed its connection.
+1778711960: mosquitto version 2.0.22 terminating
+1778711972: mosquitto version 2.0.22 starting
+1778711972: Config loaded from /mosquitto/config/mosquitto.conf.
+1778711972: Opening ipv4 listen socket on port 1883.
+1778711972: Opening ipv6 listen socket on port 1883.
+1778711972: mosquitto version 2.0.22 running
+1778711976: New connection from 172.18.0.3:38879 on port 1883.
+1778711976: New client connected from 172.18.0.3:38879 as temp-1 (p2, c1, k60).
+1778711976: No will message specified.
+1778711976: Sending CONNACK to temp-1 (0, 0)
+1778711976: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711976: New connection from 172.18.0.4:51755 on port 1883.
+1778711976: New client connected from 172.18.0.4:51755 as motion-1 (p2, c1, k60).
+1778711976: No will message specified.
+1778711976: Sending CONNACK to motion-1 (0, 0)
+1778711976: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711981: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711981: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711986: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711986: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711991: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711991: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778711996: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778711996: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778712001: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778712001: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778712004: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778712004: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778712009: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778712009: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778712014: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778712014: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778712019: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778712019: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778712024: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778712024: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778712029: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778712029: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778712032: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778712032: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778712037: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778712037: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778712042: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778712042: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778712047: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778712047: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778712052: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778712052: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778712057: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778712057: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778712060: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778712061: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778712065: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778712066: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778712070: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778712071: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778712075: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778712076: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778712080: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778712081: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778712085: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778712086: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778712089: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778712089: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778712094: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778712094: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778712099: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (36 bytes))
+1778712099: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778712104: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778712104: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778712109: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778712109: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778712114: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778712114: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778712117: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778712117: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778712122: Received PUBLISH from temp-1 (d0, q0, r0, m0, 'iot/temperature/temp-1', ... (37 bytes))
+1778712122: Received PUBLISH from motion-1 (d0, q0, r0, m0, 'iot/motion/motion-1', ... (35 bytes))
+1778714335: mosquitto version 2.0.22 starting
+1778714335: Config loaded from /mosquitto/config/mosquitto.conf.
+1778714335: Warning: File /mosquitto/config/acl has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/acl`.
+1778714335: Opening ipv4 listen socket on port 1883.
+1778714335: Opening ipv6 listen socket on port 1883.
+1778714335: mosquitto version 2.0.22 running
+1778714341: New connection from 172.18.0.4:46983 on port 1883.
+1778714341: Sending CONNACK to temp-1 (0, 5)
+1778714341: Client temp-1 disconnected, not authorised.
+1778714341: New connection from 172.18.0.5:46097 on port 1883.
+1778714341: Sending CONNACK to motion-1 (0, 5)
+1778714341: Client motion-1 disconnected, not authorised.
+1778714651: mosquitto version 2.0.22 terminating
+1778714709: mosquitto version 2.0.22 starting
+1778714709: Config loaded from /mosquitto/config/mosquitto.conf.
+1778714709: Warning: File /mosquitto/config/acl has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/acl`.
+1778714709: Opening ipv4 listen socket on port 1883.
+1778714709: Opening ipv6 listen socket on port 1883.
+1778714709: mosquitto version 2.0.22 running
+1778714714: New connection from 172.18.0.4:33337 on port 1883.
+1778714714: Sending CONNACK to motion-1 (0, 5)
+1778714714: Client motion-1 disconnected, not authorised.
+1778714714: New connection from 172.18.0.5:40785 on port 1883.
+1778714714: Sending CONNACK to temp-1 (0, 5)
+1778714714: Client temp-1 disconnected, not authorised.
+1778714972: New connection from 172.18.0.2:33660 on port 1883.
+1778714972: Sending CONNACK to auto-E1B59182-7DD9-5C29-0AD7-3F80A370839D (0, 5)
+1778714972: Client auto-E1B59182-7DD9-5C29-0AD7-3F80A370839D disconnected, not authorised.
+1778714982: New connection from 172.18.0.2:34634 on port 1883.
+1778714982: Sending CONNACK to auto-490D5FD7-00D1-CCF6-8217-F54AFC96BD50 (0, 5)
+1778714982: Client auto-490D5FD7-00D1-CCF6-8217-F54AFC96BD50 disconnected, not authorised.
+1778714998: New connection from 172.18.0.2:40140 on port 1883.
+1778714998: New client connected from 172.18.0.2:40140 as auto-B203C128-9140-A391-C76F-481879709CD7 (p2, c1, k60, u'temp-1').
+1778714998: No will message specified.
+1778714998: Sending CONNACK to auto-B203C128-9140-A391-C76F-481879709CD7 (0, 0)
+1778714998: Received SUBSCRIBE from auto-B203C128-9140-A391-C76F-481879709CD7
+1778714998: 	# (QoS 0)
+1778714998: auto-B203C128-9140-A391-C76F-481879709CD7 0 #
+1778714998: Sending SUBACK to auto-B203C128-9140-A391-C76F-481879709CD7
+1778715023: Received DISCONNECT from auto-B203C128-9140-A391-C76F-481879709CD7
+1778715023: Client auto-B203C128-9140-A391-C76F-481879709CD7 disconnected.
+1778715042: New connection from 172.18.0.2:36478 on port 1883.
+1778715042: New client connected from 172.18.0.2:36478 as auto-3C7EB3D2-26F7-DCBB-CEAB-D4D4B82A2F8E (p2, c1, k60, u'temp-1').
+1778715042: No will message specified.
+1778715042: Sending CONNACK to auto-3C7EB3D2-26F7-DCBB-CEAB-D4D4B82A2F8E (0, 0)
+1778715042: Received SUBSCRIBE from auto-3C7EB3D2-26F7-DCBB-CEAB-D4D4B82A2F8E
+1778715042: 	# (QoS 0)
+1778715042: auto-3C7EB3D2-26F7-DCBB-CEAB-D4D4B82A2F8E 0 #
+1778715042: Sending SUBACK to auto-3C7EB3D2-26F7-DCBB-CEAB-D4D4B82A2F8E
+1778715099: Received PINGREQ from auto-3C7EB3D2-26F7-DCBB-CEAB-D4D4B82A2F8E
+1778715099: Sending PINGRESP to auto-3C7EB3D2-26F7-DCBB-CEAB-D4D4B82A2F8E
+1778715155: Received PINGREQ from auto-3C7EB3D2-26F7-DCBB-CEAB-D4D4B82A2F8E
+1778715155: Sending PINGRESP to auto-3C7EB3D2-26F7-DCBB-CEAB-D4D4B82A2F8E
+1778715159: Received DISCONNECT from auto-3C7EB3D2-26F7-DCBB-CEAB-D4D4B82A2F8E
+1778715159: Client auto-3C7EB3D2-26F7-DCBB-CEAB-D4D4B82A2F8E disconnected.
+1778715482: mosquitto version 2.0.22 terminating
+1778715523: mosquitto version 2.0.22 starting
+1778715523: Config loaded from /mosquitto/config/mosquitto.conf.
+1778715523: Warning: File /mosquitto/config/acl has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/acl`.
+1778715523: Opening ipv4 listen socket on port 1883.
+1778715523: Opening ipv6 listen socket on port 1883.
+1778715523: mosquitto version 2.0.22 running
+1778715530: New connection from 172.20.0.4:37421 on port 1883.
+1778715530: Sending CONNACK to motion-1 (0, 5)
+1778715530: Client motion-1 disconnected, not authorised.
+1778715530: New connection from 172.20.0.5:46573 on port 1883.
+1778715530: Sending CONNACK to temp-1 (0, 5)
+1778715530: Client temp-1 disconnected, not authorised.
+1778715684: mosquitto version 2.0.22 terminating
+1778715690: mosquitto version 2.0.22 starting
+1778715690: Config loaded from /mosquitto/config/mosquitto.conf.
+1778715690: Warning: File /mosquitto/config/acl has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/acl`.
+1778715690: Opening ipv4 listen socket on port 1883.
+1778715690: Opening ipv6 listen socket on port 1883.
+1778715690: mosquitto version 2.0.22 running
+1778715697: New connection from 172.21.0.4:37099 on port 1883.
+1778715697: Sending CONNACK to motion-1 (0, 5)
+1778715697: Client motion-1 disconnected, not authorised.
+1778715697: New connection from 172.21.0.5:49949 on port 1883.
+1778715697: Sending CONNACK to temp-1 (0, 5)
+1778715697: Client temp-1 disconnected, not authorised.
+1778715744: mosquitto version 2.0.22 terminating
+1778715749: mosquitto version 2.0.22 starting
+1778715749: Config loaded from /mosquitto/config/mosquitto.conf.
+1778715749: Warning: File /mosquitto/config/acl has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/acl`.
+1778715749: Opening ipv4 listen socket on port 1883.
+1778715749: Opening ipv6 listen socket on port 1883.
+1778715749: mosquitto version 2.0.22 running
+1778715755: New connection from 172.21.0.5:35373 on port 1883.
+1778715755: Sending CONNACK to motion-1 (0, 5)
+1778715755: Client motion-1 disconnected, not authorised.
+1778715755: New connection from 172.21.0.4:57927 on port 1883.
+1778715755: Sending CONNACK to temp-1 (0, 5)
+1778715755: Client temp-1 disconnected, not authorised.
+1778715978: mosquitto version 2.0.22 terminating
+1778715990: mosquitto version 2.0.22 starting
+1778715990: Config loaded from /mosquitto/config/mosquitto.conf.
+1778715990: Warning: File /mosquitto/config/acl has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/acl`.
+1778715990: Opening ipv4 listen socket on port 1883.
+1778715990: Opening ipv6 listen socket on port 1883.
+1778715990: mosquitto version 2.0.22 running
+1778715993: New connection from 172.21.0.4:48447 on port 1883.
+1778715993: Sending CONNACK to temp-1 (0, 5)
+1778715993: Client temp-1 disconnected, not authorised.
+1778715993: New connection from 172.21.0.5:38253 on port 1883.
+1778715993: Sending CONNACK to motion-1 (0, 5)
+1778715993: Client motion-1 disconnected, not authorised.
+1778717962: mosquitto version 2.0.22 starting
+1778717962: Config loaded from /mosquitto/config/mosquitto.conf.
+1778717962: Warning: File /mosquitto/config/acl has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/acl`.
+1778717962: Opening ipv4 listen socket on port 1883.
+1778717962: Opening ipv6 listen socket on port 1883.
+1778717962: mosquitto version 2.0.22 running
+1778717967: New connection from 172.21.0.4:60177 on port 1883.
+1778717967: Sending CONNACK to temp-1 (0, 5)
+1778717967: Client temp-1 disconnected, not authorised.
+1778717967: New connection from 172.21.0.5:54467 on port 1883.
+1778717967: Sending CONNACK to motion-1 (0, 5)
+1778717967: Client motion-1 disconnected, not authorised.
+1778718154: New connection from 172.21.0.2:48210 on port 1883.
+1778718154: New client connected from 172.21.0.2:48210 as auto-60338EA6-7ED3-DC4B-DAD7-59915F89CDE9 (p2, c1, k60, u'temp-1').
+1778718154: No will message specified.
+1778718154: Sending CONNACK to auto-60338EA6-7ED3-DC4B-DAD7-59915F89CDE9 (0, 0)
+1778718154: Received SUBSCRIBE from auto-60338EA6-7ED3-DC4B-DAD7-59915F89CDE9
+1778718154: 	# (QoS 0)
+1778718154: auto-60338EA6-7ED3-DC4B-DAD7-59915F89CDE9 0 #
+1778718154: Sending SUBACK to auto-60338EA6-7ED3-DC4B-DAD7-59915F89CDE9
+1778718172: Received DISCONNECT from auto-60338EA6-7ED3-DC4B-DAD7-59915F89CDE9
+1778718172: Client auto-60338EA6-7ED3-DC4B-DAD7-59915F89CDE9 disconnected.
+1778718704: mosquitto version 2.0.22 terminating
+1778718722: mosquitto version 2.0.22 starting
+1778718722: Config loaded from /mosquitto/config/mosquitto.conf.
+1778718722: Warning: File /mosquitto/config/acl has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/acl`.
+1778718722: Opening ipv4 listen socket on port 1883.
+1778718722: Opening ipv6 listen socket on port 1883.
+1778718722: mosquitto version 2.0.22 running
+1778718726: New connection from 172.20.0.5:44783 on port 1883.
+1778718726: Sending CONNACK to temp-1 (0, 5)
+1778718726: Client temp-1 disconnected, not authorised.
+1778718727: New connection from 172.20.0.4:55053 on port 1883.
+1778718727: Sending CONNACK to motion-1 (0, 5)
+1778718727: Client motion-1 disconnected, not authorised.
+1778718835: mosquitto version 2.0.22 terminating
+1778718842: mosquitto version 2.0.22 starting
+1778718842: Config loaded from /mosquitto/config/mosquitto.conf.
+1778718842: Warning: File /mosquitto/config/acl has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/acl`.
+1778718842: Opening ipv4 listen socket on port 1883.
+1778718842: Opening ipv6 listen socket on port 1883.
+1778718842: mosquitto version 2.0.22 running
+1778718847: New connection from 172.21.0.5:56743 on port 1883.
+1778718847: Sending CONNACK to temp-1 (0, 5)
+1778718847: Client temp-1 disconnected, not authorised.
+1778718847: New connection from 172.21.0.4:34459 on port 1883.
+1778718847: Sending CONNACK to motion-1 (0, 5)
+1778718847: Client motion-1 disconnected, not authorised.
+1778718902: mosquitto version 2.0.22 terminating
+1778718910: mosquitto version 2.0.22 starting
+1778718910: Config loaded from /mosquitto/config/mosquitto.conf.
+1778718910: Warning: File /mosquitto/config/acl has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/acl`.
+1778718910: Opening ipv4 listen socket on port 1883.
+1778718910: Opening ipv6 listen socket on port 1883.
+1778718910: mosquitto version 2.0.22 running
+1778718915: New connection from 172.21.0.5:44315 on port 1883.
+1778718915: Sending CONNACK to motion-1 (0, 5)
+1778718915: Client motion-1 disconnected, not authorised.
+1778718915: New connection from 172.21.0.4:40261 on port 1883.
+1778718915: Sending CONNACK to temp-1 (0, 5)
+1778718915: Client temp-1 disconnected, not authorised.
+1778719092: New connection from 172.21.0.3:56940 on port 1883.
+1778719092: New client connected from 172.21.0.3:56940 as auto-3C814741-7F39-05F8-794F-445CBB82551C (p2, c1, k60, u'temp-1').
+1778719092: No will message specified.
+1778719092: Sending CONNACK to auto-3C814741-7F39-05F8-794F-445CBB82551C (0, 0)
+1778719092: Received SUBSCRIBE from auto-3C814741-7F39-05F8-794F-445CBB82551C
+1778719092: 	# (QoS 0)
+1778719092: auto-3C814741-7F39-05F8-794F-445CBB82551C 0 #
+1778719092: Sending SUBACK to auto-3C814741-7F39-05F8-794F-445CBB82551C
+1778719176: Client auto-3C814741-7F39-05F8-794F-445CBB82551C has exceeded timeout, disconnecting.
+1778985567: mosquitto version 2.0.22 starting
+1778985567: Config loaded from /mosquitto/config/mosquitto.conf.
+1778985567: Warning: File /mosquitto/config/acl has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/acl`.
+1778985567: Opening ipv4 listen socket on port 1883.
+1778985567: Opening ipv6 listen socket on port 1883.
+1778985567: mosquitto version 2.0.22 running
+1778985573: New connection from 172.21.0.5:51043 on port 1883.
+1778985573: Sending CONNACK to motion-1 (0, 5)
+1778985573: Client motion-1 disconnected, not authorised.
+1778985573: New connection from 172.21.0.4:34465 on port 1883.
+1778985573: Sending CONNACK to temp-1 (0, 5)
+1778985573: Client temp-1 disconnected, not authorised.
+1778985735: mosquitto version 2.0.22 terminating
+1778985745: mosquitto version 2.0.22 starting
+1778985745: Config loaded from /mosquitto/config/mosquitto.conf.
+1778985745: Warning: File /mosquitto/config/acl has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/acl`.
+1778985745: Opening ipv4 listen socket on port 1883.
+1778985745: Opening ipv6 listen socket on port 1883.
+1778985745: mosquitto version 2.0.22 running
+1778985757: New connection from 172.20.0.4:44581 on port 1883.
+1778985757: New connection from 172.20.0.5:52795 on port 1883.
+1778985757: Sending CONNACK to motion-1 (0, 5)
+1778985757: Client motion-1 disconnected, not authorised.
+1778985757: Sending CONNACK to temp-1 (0, 5)
+1778985757: Client temp-1 disconnected, not authorised.

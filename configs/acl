@@ -1,0 +1,5 @@
+user temp-1
+topic write iot/temperature/temp-1
+
+user motion-1
+topic write iot/motion/motion-1
